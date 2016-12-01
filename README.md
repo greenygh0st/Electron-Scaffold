@@ -8,3 +8,9 @@ To Use:
 2. npm install (to install deps/modules)
 
 3. npm start (to start it up)
+
+To Build:
+
+1. Make sure you have any dependencies installed that you need if you modify this.
+2. [Install Electron Packager](https://github.com/electron-userland/electron-packager)
+3. In your CLI: 'electron-packager . --all'
