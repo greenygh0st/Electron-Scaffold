@@ -10,4 +10,16 @@ app.on('ready', () => {
     //things that happen when you close the main window
     win = null;
   });
+});
+
+// Quit when all windows are closed.
+app.on('window-all-closed', function () {
+  // On OS X it is common for applications and their menu bar
+  // to stay active until the user quits explicitly with Cmd + Q
+  // Currently this is commented out. Uncomment to fix it
+  /*
+  if (process.platform !== 'darwin') {
+    app.quit()
+  }*/
+  app.quit();
 })

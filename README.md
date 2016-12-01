@@ -13,4 +13,6 @@ To Build:
 
 1. Make sure you have any dependencies installed that you need if you modify this.
 2. [Install Electron Packager](https://github.com/electron-userland/electron-packager)
-3. In your CLI: 'electron-packager . --all'
+3. In your CLI:
+  - 'electron-packager . --platform=darwin --out=./release' - For macOS
+  - 'electron-packager . --platform=win32 --out=./release' - For Win
