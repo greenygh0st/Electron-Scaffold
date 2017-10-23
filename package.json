@@ -10,7 +10,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "bootstrap": "^3.3.7"
+    "bootstrap": "^3.3.7",
     "jquery": "^3.1.0",
     "pretty-bytes": "^3.0.1"
   }, "devDependencies": {
